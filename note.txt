@@ -1,3 +1,11 @@
-invite link:
+Invite link:
 
 https://discord.com/api/oauth2/authorize?client_id=[CLIENTID]&permissions=0&scope=bot%20applications.commands
+
+Slash command key pieces:
+    1. The individual command files, containing their definitions and functionality.
+    2. The command handler, which dynamically reads the files and executes the commands.
+    3. The command deployment script, to register your slash commands with Discord so they appear in the interface.
+
+Ephemeral responses ( secret response):
+    await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
