@@ -9,3 +9,12 @@ Slash command key pieces:
 
 Ephemeral responses ( secret response):
     await interaction.reply({ content: 'Secret Pong!', ephemeral: true });
+
+MUSIC package:
+npm update
+npm i ytdl-core
+npm i yt-search
+npm i libsodium-wrappers
+npm i ffmpeg-static
+npm i distube
+npm i @distube/spotify
